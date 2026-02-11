@@ -27,425 +27,297 @@ export const skills = [
   { name: "Print Design", level: 88 }
 ];
 
+// Enhanced Content Data for AdSense-Friendly Portfolio Website
+
+export const siteInfo = {
+  name: "Vibgyor Design Studio",
+  title: "Professional Graphic Designer & Visual Branding Specialist",
+  tagline: "Creating Strategic Visual Identities That Connect and Convert",
+  description:
+    "Vibgyor Design Studio is a Kolkata-based graphic design service focused on packaging design, branding, print materials, and digital creatives. With practical experience using CorelDRAW, Adobe Photoshop, and Adobe Illustrator, we help businesses build consistent, professional, and market-ready visual identities. Our approach combines creativity, strategy, and attention to detail to deliver designs that not only look appealing but also communicate effectively.",
+  email: "mda231034@gmail.com",
+  phone: "7488191669",
+  location: "Kolkata, India",
+  locationCoords: "22.5726,88.3639",
+  whatsapp: "917488191669",
+  social: {
+    instagram: "https://instagram.com/vibgyor.design",
+    behance: "https://behance.net/vibgyor",
+    dribbble: "https://dribbble.com/vibgyor",
+    linkedin: "https://linkedin.com/in/vibgyor"
+  }
+};
+
+export const skills = [
+  { name: "CorelDRAW (Advanced Print & Packaging)", level: 95 },
+  { name: "Adobe Photoshop (Image Editing & Compositing)", level: 90 },
+  { name: "Adobe Illustrator (Vector & Branding Design)", level: 90 },
+  { name: "Brand Identity Development", level: 88 },
+  { name: "Packaging & Label Design", level: 92 },
+  { name: "Marketing & Print Design", level: 87 }
+];
+
 export const services = [
   {
     id: 1,
     title: "Product Packaging Design",
-    description: "Eye-catching packaging that makes your product stand out on shelves. From concept to print-ready files.",
+    description:
+      "Professional packaging design is one of the most important factors influencing customer purchase decisions. I create visually impactful and production-ready packaging solutions tailored to your product category and target audience. From concept development and competitor analysis to final print-ready artwork, every packaging project is approached strategically. The goal is not only to make the product attractive on shelves but also to communicate brand value, quality, and trust. All designs are delivered in correct print specifications including CMYK color mode, bleed setup, and high-resolution export formats suitable for manufacturing.",
     icon: "Package",
-    features: ["Box Design", "Label Design", "Bottle & Container Design", "Print-Ready Files"],
+    features: [
+      "Custom Box & Carton Design",
+      "Label & Bottle Graphics",
+      "Print-Ready CMYK Files",
+      "3D Mockup Presentation"
+    ],
     price: "Starting at $299"
   },
   {
     id: 2,
     title: "Banner Design",
-    description: "Professional banners for web, print, events, and promotions that capture attention and drive action.",
+    description:
+      "Well-designed banners play a critical role in both online and offline marketing campaigns. I create professional banners for websites, social media ads, events, exhibitions, and retail promotions. Each banner design focuses on clarity, strong visual hierarchy, readable typography, and effective call-to-action placement. Whether you need web-optimized banners or high-resolution large-format print banners, the designs are optimized for the intended platform and audience engagement.",
     icon: "Layout",
-    features: ["Web Banners", "Event Banners", "Trade Show Displays", "Promotional Banners"],
+    features: [
+      "Web & Display Banners",
+      "Event & Exhibition Banners",
+      "Retail Promotion Graphics",
+      "High-Resolution Print Files"
+    ],
     price: "Starting at $149"
   },
   {
     id: 3,
     title: "Social Media Graphics",
-    description: "Engaging social media posts, stories, and ads designed to boost your online presence and engagement.",
+    description:
+      "Consistent and engaging visual content is essential for building a strong online presence. I design customized social media graphics aligned with your brand identity and marketing goals. Each creative is optimized for specific platforms such as Instagram, Facebook, and LinkedIn to ensure maximum visual impact and readability. The designs focus on brand consistency, audience engagement, and message clarity while maintaining a professional aesthetic.",
     icon: "Share2",
-    features: ["Instagram Posts", "Facebook Ads", "Story Templates", "Cover Images"],
+    features: [
+      "Instagram & Facebook Posts",
+      "Ad Creatives & Campaign Graphics",
+      "Story & Reel Covers",
+      "Brand-Aligned Templates"
+    ],
     price: "Starting at $99"
   },
   {
     id: 4,
     title: "Branding & Logo Design",
-    description: "Complete brand identity packages including logos, color palettes, and brand guidelines.",
+    description:
+      "A strong brand identity builds recognition and trust. I develop comprehensive branding solutions that include logo design, typography selection, color palette development, and brand usage guidelines. Each logo is designed to be scalable, versatile, and memorable. The branding process includes research, concept development, refinement, and finalization to ensure that the identity reflects your business values and long-term vision.",
     icon: "Palette",
-    features: ["Logo Design", "Brand Guidelines", "Business Cards", "Stationery Design"],
+    features: [
+      "Custom Logo Design",
+      "Brand Color & Typography System",
+      "Business Stationery Design",
+      "Brand Guidelines Document"
+    ],
     price: "Starting at $499"
   },
   {
     id: 5,
     title: "Print Design",
-    description: "High-quality print materials including brochures, flyers, catalogs, and marketing collateral.",
+    description:
+      "Print materials remain a powerful marketing tool when designed professionally. I create brochures, flyers, catalogs, posters, and other marketing collateral that maintain brand consistency and deliver clear communication. Each design is carefully structured with proper layout balance, typography hierarchy, and print-ready formatting to ensure high-quality production output.",
     icon: "FileText",
-    features: ["Brochures", "Flyers", "Catalogs", "Posters"],
+    features: [
+      "Brochures & Flyers",
+      "Product Catalogs",
+      "Marketing Posters",
+      "Press-Ready PDF Files"
+    ],
     price: "Starting at $199"
   },
   {
     id: 6,
-    title: "Product Design",
-    description: "Creative product design solutions that blend aesthetics with functionality for market success.",
+    title: "Product Design & Mockups",
+    description:
+      "Professional product visualization and mockups help businesses present their ideas clearly before production. I create realistic product mockups and conceptual visualizations that assist in presentations, marketing materials, and investor discussions. The focus is on blending aesthetics with functionality while maintaining accuracy and professional detailing.",
     icon: "Box",
-    features: ["Product Mockups", "3D Visualization", "Prototyping", "Design Consultation"],
+    features: [
+      "Product Mockup Creation",
+      "3D Visualization",
+      "Concept Presentation Files",
+      "Design Consultation"
+    ],
     price: "Starting at $399"
   }
 ];
 
-export const portfolioItems = [
-  {
-    id: 1,
-    title: "Organic Coffee Packaging",
-    category: "Packaging",
-    description: "Premium coffee packaging design with eco-friendly appeal and modern aesthetics.",
-    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80",
-    client: "Brew Masters Co."
-  },
-  {
-    id: 2,
-    title: "Tech Startup Branding",
-    category: "Branding",
-    description: "Complete brand identity for an innovative tech startup including logo and brand guidelines.",
-    image: "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=800&q=80",
-    client: "TechFlow Inc."
-  },
-  {
-    id: 3,
-    title: "Summer Sale Banner Campaign",
-    category: "Banners",
-    description: "Eye-catching banner series for retail summer campaign across multiple platforms.",
-    image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800&q=80",
-    client: "Fashion Hub"
-  },
-  {
-    id: 4,
-    title: "Instagram Content Series",
-    category: "Social Media",
-    description: "Cohesive social media graphics series with engaging visuals and consistent branding.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
-    client: "Beauty Essence"
-  },
-  {
-    id: 5,
-    title: "Natural Skincare Packaging",
-    category: "Packaging",
-    description: "Elegant packaging design for natural skincare line with minimalist approach.",
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
-    client: "Pure Botanics"
-  },
-  {
-    id: 6,
-    title: "Restaurant Brand Identity",
-    category: "Branding",
-    description: "Modern restaurant branding with menu design, signage, and promotional materials.",
-    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
-    client: "Gourmet Bistro"
-  },
-  {
-    id: 7,
-    title: "Event Promotion Banners",
-    category: "Banners",
-    description: "Large-format banners for corporate event with bold typography and brand colors.",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
-    client: "Enterprise Solutions"
-  },
-  {
-    id: 8,
-    title: "Facebook Ad Campaign",
-    category: "Social Media",
-    description: "High-converting Facebook ad graphics for e-commerce product launch.",
-    image: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=800&q=80",
-    client: "Shop Smart"
-  },
-  {
-    id: 9,
-    title: "Luxury Watch Packaging",
-    category: "Packaging",
-    description: "Premium watch box design with sophisticated detailing and luxury finish.",
-    image: "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&q=80",
-    client: "Timepiece Luxury"
-  }
-];
-
-export const testimonials = [
-  {
-    id: 1,
-    name: "Sarah Johnson",
-    position: "Marketing Director",
-    company: "Brew Masters Co.",
-    text: "Vibgyor transformed our coffee packaging into a work of art. Sales increased by 45% after the redesign. Highly professional and creative!",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80"
-  },
-  {
-    id: 2,
-    name: "Michael Chen",
-    position: "Founder",
-    company: "TechFlow Inc.",
-    text: "Working with Vibgyor on our brand identity was exceptional. The attention to detail and understanding of our vision was remarkable.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80"
-  },
-  {
-    id: 3,
-    name: "Emma Rodriguez",
-    position: "Store Manager",
-    company: "Fashion Hub",
-    text: "The banner campaign Vibgyor created for us was stunning. Customer engagement doubled during the promotion period.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80"
-  },
-  {
-    id: 4,
-    name: "David Park",
-    position: "CEO",
-    company: "Pure Botanics",
-    text: "Vibgyor's packaging design perfectly captured our brand's natural essence. Our products now stand out on retail shelves.",
-    rating: 5,
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&q=80"
-  }
-];
 
 export const blogPosts = [
   {
     id: 1,
-    title: "10 Essential Packaging Design Trends for 2024",
-    slug: "packaging-design-trends-2024",
-    excerpt: "Discover the latest packaging design trends that are shaping the industry in 2024, from sustainable materials to minimalist aesthetics.",
-    content: `<h2>The Evolution of Packaging Design</h2>
-<p>Packaging design continues to evolve with changing consumer preferences and environmental concerns. In 2024, we're seeing exciting trends that blend sustainability with stunning visuals.</p>
+    title: "10 Powerful Packaging Design Trends That Will Dominate 2024",
+    slug: "powerful-packaging-design-trends-2024",
+    excerpt: "Explore the most impactful packaging design trends of 2024 that are transforming brands through sustainability, minimalism, and smart technology.",
+    content: `
+<h2>The Future of Packaging Design in 2024</h2>
+<p>Packaging design is no longer just about protecting a product. In 2024, it has become a powerful branding tool that influences buying decisions within seconds. Consumers now demand sustainability, authenticity, and emotional connection.</p>
 
-<h3>1. Sustainable and Eco-Friendly Materials</h3>
-<p>Consumers are increasingly conscious about environmental impact. Brands are switching to biodegradable materials, recycled paper, and plant-based plastics. This trend isn't just good for the planet—it's good for business.</p>
+<h3>1. Sustainable & Biodegradable Materials</h3>
+<p>Eco-conscious consumers are pushing brands toward recycled paper, compostable packaging, and plant-based inks. Sustainable packaging not only reduces environmental impact but also increases brand trust.</p>
 
-<h3>2. Minimalist Design Approach</h3>
-<p>Less is more in 2024. Clean lines, simple typography, and plenty of white space create elegant packaging that stands out on crowded shelves.</p>
+<h3>2. Minimalist & Clean Aesthetics</h3>
+<p>Minimalism continues to dominate shelves. Simple layouts, soft color palettes, and clean typography help products stand out in crowded retail spaces.</p>
 
-<h3>3. Bold Typography</h3>
-<p>Large, striking fonts are making statements. Typography is becoming the hero element in packaging design, conveying brand personality instantly.</p>
+<h3>3. Bold & Expressive Typography</h3>
+<p>Typography is becoming the hero element in packaging. Oversized fonts and custom lettering instantly communicate brand personality.</p>
 
-<h3>4. Vintage and Retro Aesthetics</h3>
-<p>Nostalgia sells. Vintage-inspired designs with modern twists are connecting with consumers emotionally.</p>
+<h3>4. Transparent & Honest Packaging</h3>
+<p>Brands are using clear windows and honest labeling to build transparency and trust with customers.</p>
 
-<h3>5. Interactive Packaging</h3>
-<p>QR codes, AR experiences, and smart packaging are creating engaging customer experiences beyond the product itself.</p>
+<h3>5. Smart & Interactive Packaging</h3>
+<p>QR codes, NFC tags, and AR integrations allow customers to scan packaging for additional information, tutorials, or brand stories.</p>
 
-<p>As a graphic designer specializing in packaging, I've implemented these trends for numerous clients with remarkable results. The key is understanding your brand's unique story and target audience.</p>`,
+<h3>6. Vintage-Inspired Modern Designs</h3>
+<p>Retro aesthetics with modern execution are connecting emotionally with consumers across generations.</p>
+
+<h3>7. Custom Illustrations</h3>
+<p>Unique hand-drawn illustrations create differentiation and authenticity compared to generic stock-based designs.</p>
+
+<h3>8. Flexible & Reusable Packaging</h3>
+<p>Reusable containers and refill systems are becoming a major innovation trend in eco-friendly branding.</p>
+
+<h3>9. Textured & Premium Finishes</h3>
+<p>Embossing, foil stamping, matte lamination, and soft-touch finishes enhance product perception.</p>
+
+<h3>10. Localized & Cultural Design</h3>
+<p>Brands are incorporating local art and regional storytelling to create deeper connections.</p>
+
+<p>As a packaging designer, implementing these trends strategically — not blindly — ensures long-term brand value and market impact.</p>
+`,
     category: "Packaging Design",
     author: "Vibgyor",
     date: "2024-01-15",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
-    tags: ["Packaging", "Trends", "Design Tips"]
+    tags: ["Packaging", "Trends", "Branding"]
   },
+
   {
     id: 2,
-    title: "Adobe Photoshop Tips for Stunning Banner Design",
-    slug: "photoshop-tips-banner-design",
-    excerpt: "Master the art of banner design with these professional Photoshop techniques that will elevate your creative work.",
-    content: `<h2>Creating Professional Banners in Photoshop</h2>
-<p>Banner design requires both technical skills and creative vision. Here are my top Photoshop tips after years of creating successful banner campaigns.</p>
+    title: "Professional Banner Design in Photoshop: Complete Advanced Guide",
+    slug: "professional-banner-design-photoshop-guide",
+    excerpt: "Step-by-step professional techniques to create high-converting banners using Adobe Photoshop.",
+    content: `
+<h2>Designing High-Converting Banners</h2>
+<p>Banner design is a powerful marketing asset. A great banner captures attention in seconds and communicates value instantly.</p>
 
-<h3>1. Start with the Right Dimensions</h3>
-<p>Always begin with correct dimensions for your platform:
-- Web banners: 728x90, 300x250, 160x600
-- Social media: 1200x628 (Facebook), 1080x1080 (Instagram)
-- Print banners: 300 DPI minimum resolution</p>
+<h3>1. Start with Correct Dimensions</h3>
+<p>Web banners: 728x90, 300x250, 160x600.<br>
+Instagram: 1080x1080.<br>
+Facebook Ads: 1200x628.<br>
+Print banners: 300 DPI resolution minimum.</p>
 
-<h3>2. Use Smart Objects</h3>
-<p>Convert your layers to Smart Objects to maintain quality when scaling and apply non-destructive filters.</p>
+<h3>2. Use Grid Systems</h3>
+<p>Align elements properly using guides and grids to create balanced compositions.</p>
 
-<h3>3. Master Blending Modes</h3>
-<p>Experiment with Multiply, Screen, and Overlay blending modes to create depth and visual interest.</p>
+<h3>3. Master Smart Objects</h3>
+<p>Smart Objects allow non-destructive editing and help maintain image quality during scaling.</p>
 
-<h3>4. Create Hierarchy with Typography</h3>
-<p>Use font size, weight, and color to guide the viewer's eye through your message. Headlines should be bold and readable from a distance.</p>
+<h3>4. Focus on Visual Hierarchy</h3>
+<p>Your headline must be bold and readable. CTA buttons should contrast strongly with the background.</p>
 
-<h3>5. Optimize for Web</h3>
-<p>Use Save for Web (Legacy) to compress file size while maintaining visual quality. Target 150KB or less for web banners.</p>
+<h3>5. Apply Color Psychology</h3>
+<p>Red creates urgency. Blue builds trust. Yellow grabs attention. Use colors strategically.</p>
 
-<p>These techniques have helped me create high-converting banners for clients across various industries. Practice these skills and watch your banner designs improve dramatically.</p>`,
+<h3>6. Optimize File Size</h3>
+<p>Use “Save for Web” to compress while maintaining quality. Aim under 150KB for faster loading.</p>
+
+<h3>7. Test Different Variations</h3>
+<p>Create multiple versions with different headlines and visuals for A/B testing.</p>
+
+<p>Professional banner design blends creativity, marketing psychology, and technical precision.</p>
+`,
     category: "Tutorials",
     author: "Vibgyor",
     date: "2024-01-10",
     image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=1200&q=80",
-    tags: ["Photoshop", "Banners", "Tutorial"]
+    tags: ["Photoshop", "Banner Design", "Marketing"]
   },
+
   {
     id: 3,
-    title: "Building a Strong Brand Identity: A Complete Guide",
-    slug: "building-strong-brand-identity",
-    excerpt: "Learn the essential elements of creating a memorable brand identity that resonates with your target audience and stands the test of time.",
-    content: `<h2>What is Brand Identity?</h2>
-<p>Brand identity is the visual and emotional representation of your business. It's how customers recognize and remember you in a crowded marketplace.</p>
+    title: "Complete Brand Identity Design Guide for Modern Businesses",
+    slug: "complete-brand-identity-design-guide",
+    excerpt: "Learn how to build a strong and memorable brand identity that creates emotional connection and long-term recognition.",
+    content: `
+<h2>Why Brand Identity Matters</h2>
+<p>Brand identity is the visual and emotional language of your business. A strong identity increases recognition, trust, and loyalty.</p>
 
 <h3>Core Elements of Brand Identity</h3>
 
 <h4>1. Logo Design</h4>
-<p>Your logo is the cornerstone of your brand identity. It should be:
-- Simple and memorable
-- Scalable (works at any size)
-- Timeless (avoids trendy elements)
-- Versatile (works in color and black & white)</p>
+<p>Your logo should be simple, scalable, timeless, and versatile.</p>
 
-<h4>2. Color Palette</h4>
-<p>Colors evoke emotions and create associations. Choose 2-3 primary colors and 2-3 secondary colors that reflect your brand personality.</p>
+<h4>2. Color Strategy</h4>
+<p>Choose 2–3 primary colors and supporting secondary tones that reflect your brand personality.</p>
 
-<h4>3. Typography</h4>
-<p>Select fonts that align with your brand character. Typically, you'll need:
-- A primary font for headlines
-- A secondary font for body text
-- Ensure readability across all platforms</p>
+<h4>3. Typography System</h4>
+<p>Select consistent fonts for headlines, body text, and digital use.</p>
 
-<h4>4. Visual Style</h4>
-<p>Define your photography style, illustration approach, and graphic elements that make your brand recognizable.</p>
+<h4>4. Brand Voice & Tone</h4>
+<p>Your messaging style should match your visual identity.</p>
 
-<h3>The Branding Process</h3>
-<p>1. Research your audience and competitors
-2. Define your brand values and personality
-3. Create mood boards and concepts
-4. Design core brand elements
-5. Develop brand guidelines
-6. Apply consistently across all touchpoints</p>
+<h4>5. Visual Consistency</h4>
+<p>Maintain consistent imagery, icon style, and layout across platforms.</p>
 
-<p>A strong brand identity is an investment that pays dividends through customer loyalty and recognition.</p>`,
+<h3>Step-by-Step Branding Process</h3>
+<p>
+1. Market & competitor research<br>
+2. Audience analysis<br>
+3. Mood board creation<br>
+4. Logo and color development<br>
+5. Brand guidelines documentation<br>
+6. Cross-platform implementation
+</p>
+
+<p>Strong branding transforms small businesses into powerful brands.</p>
+`,
     category: "Branding",
     author: "Vibgyor",
     date: "2024-01-05",
     image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&q=80",
-    tags: ["Branding", "Logo Design", "Strategy"]
+    tags: ["Branding", "Strategy", "Logo"]
   },
+
   {
     id: 4,
-    title: "Social Media Graphics That Drive Engagement",
-    slug: "social-media-graphics-engagement",
-    excerpt: "Discover proven strategies for creating social media graphics that stop the scroll and drive meaningful engagement with your audience.",
-    content: `<h2>The Power of Visual Content on Social Media</h2>
-<p>Visual content receives 94% more views than text-only posts. Here's how to create graphics that capture attention and drive engagement.</p>
+    title: "How to Design Social Media Graphics That Increase Engagement",
+    slug: "design-social-media-graphics-engagement",
+    excerpt: "Practical strategies to design scroll-stopping social media graphics that increase reach and engagement.",
+    content: `
+<h2>Winning Attention on Social Media</h2>
+<p>Visual content gets 94% more engagement than text-only posts. The right design approach makes all the difference.</p>
 
-<h3>Platform-Specific Design Strategies</h3>
+<h3>Instagram</h3>
+<p>Use consistent grid style. Create carousel posts. Use strong contrast for readability.</p>
 
-<h4>Instagram</h4>
-<p>- Use 1080x1080 for feed posts
-- Create cohesive grid aesthetics
-- Leverage Stories (1080x1920) for behind-the-scenes content
-- Use carousel posts to tell stories</p>
+<h3>Facebook</h3>
+<p>Clear CTA buttons. Large readable fonts. Mobile-first layout.</p>
 
-<h4>Facebook</h4>
-<p>- Optimize images at 1200x628
-- Include clear CTAs
-- Use video thumbnails that stop the scroll
-- Design for mobile-first viewing</p>
+<h3>LinkedIn</h3>
+<p>Professional aesthetics. Infographics with data perform best.</p>
 
-<h4>LinkedIn</h4>
-<p>- Professional, clean aesthetics
-- Infographics perform exceptionally well
-- Use brand colors consistently
-- Include data and statistics</p>
+<h3>Design Tips</h3>
+<p>
+• Keep it simple and focused<br>
+• Use high contrast colors<br>
+• Add subtle branding elements<br>
+• Maintain consistent posting style<br>
+• Analyze performance metrics
+</p>
 
-<h3>Design Principles for Social Media</h3>
-
-<p><strong>1. Keep it Simple</strong><br>
-Cluttered designs lose attention. Focus on one clear message per graphic.</p>
-
-<p><strong>2. Use High-Contrast Colors</strong><br>
-Ensure text is readable on small screens with strong color contrast.</p>
-
-<p><strong>3. Include Your Branding</strong><br>
-Subtly incorporate your logo or brand colors for recognition.</p>
-
-<p><strong>4. Test and Analyze</strong><br>
-A/B test different designs and track engagement metrics to optimize performance.</p>
-
-<h3>Tools and Software</h3>
-<p>While Canva is popular, professional tools like Adobe Photoshop and Illustrator offer more control and better quality for brand consistency.</p>
-
-<p>Creating effective social media graphics is both art and science. Understanding your audience and platform algorithms is just as important as design skills.</p>`,
+<p>Social media design is not just about beauty — it’s about strategy and engagement optimization.</p>
+`,
     category: "Social Media",
     author: "Vibgyor",
     date: "2024-01-01",
     image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1200&q=80",
-    tags: ["Social Media", "Marketing", "Design Tips"]
-  },
-  {
-    id: 5,
-    title: "CorelDRAW vs Adobe Illustrator: Which is Better?",
-    slug: "coreldraw-vs-illustrator",
-    excerpt: "An honest comparison of CorelDRAW and Adobe Illustrator from a professional designer who uses both daily.",
-    content: `<h2>The Great Vector Graphics Debate</h2>
-<p>As a professional graphic designer who uses both CorelDRAW and Adobe Illustrator extensively, I'm often asked which is better. The truth? Both are excellent tools with different strengths.</p>
-
-<h3>CorelDRAW Advantages</h3>
-
-<p><strong>1. Superior Typography Tools</strong><br>
-CorelDRAW's text handling is phenomenal. Perfect for banner design, signage, and projects with heavy text requirements.</p>
-
-<p><strong>2. Page Layout Features</strong><br>
-Built-in multi-page document support makes CorelDRAW ideal for brochures and catalogs without needing InDesign.</p>
-
-<p><strong>3. Intuitive Interface</strong><br>
-Many designers find CorelDRAW's interface more intuitive, especially for beginners.</p>
-
-<p><strong>4. One-Time Purchase Option</strong><br>
-CorelDRAW offers perpetual licenses, avoiding subscription fatigue.</p>
-
-<h3>Adobe Illustrator Advantages</h3>
-
-<p><strong>1. Industry Standard</strong><br>
-Illustrator is the default in most professional settings, making file sharing easier.</p>
-
-<p><strong>2. Creative Cloud Integration</strong><br>
-Seamless workflow with Photoshop, InDesign, and other Adobe apps.</p>
-
-<p><strong>3. Advanced Drawing Tools</strong><br>
-The Pen tool and pathfinding operations are slightly more refined in Illustrator.</p>
-
-<p><strong>4. Plugin Ecosystem</strong><br>
-Vast library of third-party plugins and scripts for automation.</p>
-
-<h3>My Recommendation</h3>
-
-<p>For packaging design and print work, I prefer <strong>CorelDRAW</strong>. For branding projects that involve collaboration with other designers, I use <strong>Illustrator</strong>.</p>
-
-<p>The best choice depends on your specific needs, budget, and workflow. Many professional designers (myself included) use both tools depending on the project requirements.</p>
-
-<h3>Final Thoughts</h3>
-<p>Don't get caught up in software wars. Master the fundamentals of design—composition, color theory, typography—and you'll excel with either tool.</p>`,
-    category: "Software",
-    author: "Vibgyor",
-    date: "2023-12-28",
-    image: "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=1200&q=80",
-    tags: ["CorelDRAW", "Illustrator", "Software Comparison"]
+    tags: ["Social Media", "Engagement", "Marketing"]
   }
 ];
 
-export const faqs = [
-  {
-    id: 1,
-    question: "What is your typical turnaround time for projects?",
-    answer: "Turnaround time varies by project complexity. Simple social media graphics: 1-2 days. Logo design: 5-7 days. Complete packaging design: 2-3 weeks. Rush services available for urgent projects."
-  },
-  {
-    id: 2,
-    question: "Do you provide print-ready files?",
-    answer: "Yes! All print projects include print-ready files in required formats (PDF, AI, EPS) with correct color modes (CMYK), bleeds, and specifications for your printer."
-  },
-  {
-    id: 3,
-    question: "How many revisions are included?",
-    answer: "Most packages include 2-3 rounds of revisions. Additional revisions can be purchased if needed. I work closely with clients to ensure satisfaction."
-  },
-  {
-    id: 4,
-    question: "What file formats will I receive?",
-    answer: "You'll receive source files (AI, CDR, PSD) and export formats (PDF, PNG, JPG, SVG) depending on your needs. All files are organized and clearly labeled."
-  },
-  {
-    id: 5,
-    question: "Do you work with international clients?",
-    answer: "Absolutely! I work with clients worldwide. Communication via email, video calls, and project management tools ensures smooth collaboration regardless of location."
-  },
-  {
-    id: 6,
-    question: "What information do you need to start a project?",
-    answer: "I need your brand guidelines (if available), project brief, target audience information, preferred colors/styles, and any reference designs you like. We'll discuss details in our initial consultation."
-  },
-  {
-    id: 7,
-    question: "Do you offer ongoing design support?",
-    answer: "Yes! I offer monthly retainer packages for businesses needing regular design work. This includes social media graphics, marketing materials, and brand consistency maintenance."
-  },
-  {
-    id: 8,
-    question: "What makes your design services unique?",
-    answer: "I combine technical expertise in CorelDRAW, Photoshop, and Illustrator with deep understanding of market trends and consumer psychology. Every design is strategic, not just aesthetic."
-  }
-];
 
 export const whyChooseMe = [
   {
