@@ -18,6 +18,16 @@
   align-items: center;
 }
 
+.ad-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.adsbygoogle {
+  min-height: 100px;
+}
+
+
 .hero-title {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   line-height: 1.2;

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Award, Zap, RefreshCw, FileCheck, Sparkles, Headphones, Star } from 'lucide-react';
 import { services, portfolioItems, testimonials, whyChooseMe, siteInfo } from '../../Mock';
 import './Home.css';
+import { useEffect } from 'react';
 
 const iconMap = {
   Award,
@@ -13,7 +14,22 @@ const iconMap = {
   Headphones
 };
 
+
+
+
+
 const Home = () => {
+
+  useEffect(() => {
+    if (window.adsbygoogle && typeof window.adsbygoogle.push === "function") {
+      try {
+        window.adsbygoogle.push({});
+      } catch (e) {
+        console.log("Adsense already initialized");
+      }
+    }
+  }, []);
+
   return (
     <div className="home">
       {/* Hero Section */}
@@ -25,7 +41,7 @@ const Home = () => {
                 Professional Graphic Designer for Product & Packaging Design
               </h1>
               <p className="hero-description">
-                Transforming ideas into stunning visual designs that captivate audiences and drive results. 
+                Transforming ideas into stunning visual designs that captivate audiences and drive results.
                 Specializing in packaging, branding, and digital graphics.
               </p>
               <div className="hero-buttons">
@@ -52,12 +68,24 @@ const Home = () => {
               </div>
             </div>
             <div className="hero-image">
-              <img 
-                src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80" 
+              <img
+                src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80"
                 alt="Graphic Design Workspace"
               />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="ad-section">
+        <div className="container">
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-8178245553308553"
+            data-ad-slot="8637269695"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
         </div>
       </section>
 
@@ -183,17 +211,17 @@ const Home = () => {
           <div className="cta-content">
             <h2>Ready to Start Your Project?</h2>
             <p>
-              Let's collaborate to bring your vision to life. With 10+ years of experience in graphic design, 
+              Let's collaborate to bring your vision to life. With 10+ years of experience in graphic design,
               I'm here to help elevate your brand.
             </p>
             <div className="cta-buttons">
               <Link to="/contact" className="btn btn-primary">
                 Get In Touch
               </Link>
-              <a 
-                href={`https://wa.me/${siteInfo.whatsapp}`} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href={`https://wa.me/${siteInfo.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-secondary"
               >
                 WhatsApp Me
