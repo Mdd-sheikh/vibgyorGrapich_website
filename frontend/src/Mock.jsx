@@ -1,32 +1,5 @@
 // Mock data for the portfolio website
 
-export const siteInfo = {
-  name: "Vibgyor",
-  title: "Professional Graphic Designer",
-  tagline: "Transforming Ideas into Visual Masterpieces",
-  description: "Specialized in Product Design, Packaging, Branding & Social Media Graphics",
-  email: "mda231034@gmail.com",
-  phone: "7488191669",
-  location: "Kolkata, India",
-  locationCoords: "22.5726,88.3639",
-  whatsapp: "917488191669",
-  social: {
-    instagram: "https://instagram.com/vibgyor.design",
-    behance: "https://behance.net/vibgyor",
-    dribbble: "https://dribbble.com/vibgyor",
-    linkedin: "https://linkedin.com/in/vibgyor"
-  }
-};
-
-export const skills = [
-  { name: "CorelDRAW", level: 95 },
-  { name: "Adobe Photoshop", level: 90 },
-  { name: "Adobe Illustrator", level: 90 },
-  { name: "Branding & Identity", level: 85 },
-  { name: "Packaging Design", level: 92 },
-  { name: "Print Design", level: 88 }
-];
-
 // Enhanced Content Data for AdSense-Friendly Portfolio Website
 
 export const siteInfo = {
@@ -48,14 +21,22 @@ export const siteInfo = {
   }
 };
 
+export const faqs = [ { id: 1, question: "What is your typical turnaround time for projects?", answer: "Turnaround time varies by project complexity. Simple social media graphics: 1-2 days. Logo design: 5-7 days. Complete packaging design: 2-3 weeks. Rush services available for urgent projects." }, { id: 2, question: "Do you provide print-ready files?", answer: "Yes! All print projects include print-ready files in required formats (PDF, AI, EPS) with correct color modes (CMYK), bleeds, and specifications for your printer." }, { id: 3, question: "How many revisions are included?", answer: "Most packages include 2-3 rounds of revisions. Additional revisions can be purchased if needed. I work closely with clients to ensure satisfaction." }, { id: 4, question: "What file formats will I receive?", answer: "You'll receive source files (AI, CDR, PSD) and export formats (PDF, PNG, JPG, SVG) depending on your needs. All files are organized and clearly labeled." }, { id: 5, question: "Do you work with international clients?", answer: "Absolutely! I work with clients worldwide. Communication via email, video calls, and project management tools ensures smooth collaboration regardless of location." }, { id: 6, question: "What information do you need to start a project?", answer: "I need your brand guidelines (if available), project brief, target audience information, preferred colors/styles, and any reference designs you like. We'll discuss details in our initial consultation." }, { id: 7, question: "Do you offer ongoing design support?", answer: "Yes! I offer monthly retainer packages for businesses needing regular design work. This includes social media graphics, marketing materials, and brand consistency maintenance." }, { id: 8, question: "What makes your design services unique?", answer: "I combine technical expertise in CorelDRAW, Photoshop, and Illustrator with deep understanding of market trends and consumer psychology. Every design is strategic, not just aesthetic." } ];
+
+
 export const skills = [
-  { name: "CorelDRAW (Advanced Print & Packaging)", level: 95 },
-  { name: "Adobe Photoshop (Image Editing & Compositing)", level: 90 },
-  { name: "Adobe Illustrator (Vector & Branding Design)", level: 90 },
-  { name: "Brand Identity Development", level: 88 },
-  { name: "Packaging & Label Design", level: 92 },
-  { name: "Marketing & Print Design", level: 87 }
+  { name: "CorelDRAW", level: 95 },
+  { name: "Adobe Photoshop", level: 90 },
+  { name: "Adobe Illustrator", level: 90 },
+  { name: "Branding & Identity", level: 85 },
+  { name: "Packaging Design", level: 92 },
+  { name: "Print Design", level: 88 }
 ];
+
+// Enhanced Content Data for AdSense-Friendly Portfolio Website
+
+
+
 
 export const services = [
   {
@@ -351,3 +332,40 @@ export const whyChooseMe = [
     icon: "Headphones"
   }
 ];
+
+
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Sarah Johnson",
+    position: "Marketing Director",
+    company: "Brew Masters Co.",
+    text:
+      "The packaging redesign was handled professionally and aligned well with our brand positioning. Communication was clear, and the final files were delivered in proper print-ready format.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80"
+  }
+];
+
+export const portfolioItems = [
+  {
+    id: 1,
+    title: "Organic Coffee Packaging",
+    category: "Packaging",
+    description:
+      "Developed a clean and eco-conscious packaging solution for an organic coffee brand targeting premium urban consumers. The project focused on earthy tones, minimalist typography, and sustainable design elements to reflect the brand’s natural positioning. Final deliverables included box packaging artwork, label design, and high-quality 3D presentation mockups.",
+    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80",
+    client: "Brew Masters Co."
+  },
+  {
+    id: 2,
+    title: "Tech Startup Branding",
+    category: "Branding",
+    description:
+      "Created a complete brand identity for a technology startup, including logo design, color system, and visual guidelines. The objective was to communicate innovation, clarity, and reliability through a modern and minimal design language.",
+    image: "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=800&q=80",
+    client: "TechFlow Inc."
+  }
+];
+

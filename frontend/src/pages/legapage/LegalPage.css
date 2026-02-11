@@ -108,3 +108,31 @@
     margin-left: 1.5rem;
   }
 }
+
+.legal-page {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.legal-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.legal-page h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.legal-page p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+

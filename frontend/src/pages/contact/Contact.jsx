@@ -54,6 +54,20 @@ const Contact = () => {
       {/* Contact Section */}
       <section className="section contact-section">
         <div className="container">
+          <div className="container">
+            <h2>Professional Graphic Design Services in Kolkata</h2>
+            <p>
+              I provide professional graphic design services including packaging design,
+              logo design, branding, banner design, social media graphics, and print materials.
+              Based in Kolkata, West Bengal, I work with clients across India and internationally.
+            </p>
+
+            <p>
+              Whether you're a startup looking for brand identity or an established
+              business needing creative packaging solutions, I deliver strategic,
+              high-quality design solutions tailored to your audience.
+            </p>
+          </div>
           <div className="contact-grid">
             {/* Contact Form */}
             <div className="contact-form-wrapper">
@@ -168,10 +182,10 @@ const Contact = () => {
               </div>
 
               {/* WhatsApp Button */}
-              <a 
-                href={`https://wa.me/${siteInfo.whatsapp}`} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href={`https://wa.me/${siteInfo.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-secondary whatsapp-btn"
               >
                 WhatsApp Me
