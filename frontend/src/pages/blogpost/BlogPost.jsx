@@ -100,11 +100,7 @@ const BlogPost = () => {
               </div>
 
               {/* Sidebar */}
-              <aside className="blog-post-sidebar">
-                <div className="ad-space ad-space-sidebar">
-                  Ad Space
-                </div>
-              </aside>
+             
             </div>
           </div>
         </div>
